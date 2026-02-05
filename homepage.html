@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moonlit Artifacts</title>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <div class="d-flex align-items-center">
+                <img src="./assets/logo.png" alt="logo" id="logo" width="70px">
+                <a class="navbar-brand" style="color: #8C6AC4" href="#">Moonlit Artifacts</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end p" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Moonlit Artifacts</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active max-lg-2" aria-current="page" href="/homepage.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link max-lg-2" href="/about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link max-lg-2" href="products.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link max-lg-2" href="/contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link max-lg-2" href="/cart.html">Cart</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <section class="hero-section">
+
+        <div class=" hero d-flex align-items-center">
+
+            <div class="hero-content flex-grow-1 ms-3">
+                <p>Every creation here is handcrafted with love and care. We believe in turning simple materials into
+                    meaningful gifts that bring joy</p>
+                <pre class="her0-heading"><span>h</span>andmade Gifts </pre>
+                <h4>Time, effort, and love—wrapped into one handmade gift.</h4>
+                <button class="btn"><a href="contact.html">Order Now</a></button>
+            </div>
+            
+
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/red-7roses-1.jpeg" class="d-block " alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Ribbon Bouquets</h5>
+                            <p>Handcrafted ribbon flower bouquets, made to last and designed to impress.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/card-1.jpeg" class="d-block " alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Handmade Cards</h5>
+                            <p>Handmade cards crafted with care, turning your words into something truly unforgettable.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/snack-bouq.jpeg" class="d-block" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Gift Bouquets</h5>
+                            <p>Thoughtfully crafted gift bouquets, made to turn moments into memories.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="welcome">
+        <div class="welcome">
+            <div class="welcome_image">
+                <img src="./assets/hero-image.jpeg" alt="">
+            </div>
+            <div class="welcome_descp">
+                <h1>Welcome to Moonlit Artifacts!</h1>
+                <p>Welcome to our handmade gift bouquet business, where creativity meets heartfelt expression. Every
+                    bouquet we create is thoughtfully designed and carefully handcrafted to turn ordinary moments into
+                    meaningful memories. We believe gifting should feel personal, warm, and unforgettable, which is why
+                    we focus on quality, detail, and unique designs in every arrangement. From celebrations and
+                    milestones to simple gestures of appreciation, our gift bouquets are made to speak from the heart.
+                    Thank you for choosing us to be part of your special moments—we’re honored to help you share love,
+                    joy, and gratitude through beautifully crafted gifts made just for you. 💐</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="services">
+        <div class="services_heading">
+            <h1>Services MOONLIT ARTIFACTS provide</h1>
+        </div>
+        <div>
+            <div class="services_div">
+                <a href="">
+                    <div class="services_box" style="background-image:url('./assets/pink-roses-1.jpeg');">
+                        <div class="services_inner">
+                            <h2>Ribbon Roses</h2>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="services_box" style="background-image:url('./assets/purple-tulips-1.jpeg');">
+                        <div class="services_inner">
+                            <h2>Ribbon tulips</h2>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="services_box" style="background-image:url('./assets/card-2.jpeg');">
+                        <div class="services_inner">
+                            <h2>Cards</h2>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="services_box" style="background-image:url('./assets/snack-bouq2.jpeg');">
+                        <div class="services_inner">
+                            <h2>Snacks Bouquets</h2>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="services_box" style="background-image:url('./assets/gift-bouq.jpeg');">
+                        <div class="services_inner">
+                            <h2>Gift Bouquets</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="footer">
+
+        <section id="footer">
+            <div class="main_footer">
+                <div class="footer_logo">
+                    <img src="./assets/logo.png" alt="" width="200px">
+
+                </div>
+                <div class="footer_navbar">
+                    <ul class="footer_options">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="">Privacy</a></li>
+                        <li><a href="">Terms </a></li>
+                        <li><a href="">Contact </a></li>
+                    </ul>
+                </div>
+                <div class="footer_contact">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                    <a href=""><i class="fa-solid fa-phone"></i></a>
+                    <a href=""><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+        <h4>(C) 2024 - Pakistan Tour & Travels . All Rights Reserved</h4>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
